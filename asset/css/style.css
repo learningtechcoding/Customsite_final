@@ -132,6 +132,18 @@
 
   
 }
+.inner-imgone {
+  transition: 0.3s;
+  width: 100%;
+  object-fit: cover;
+  height: 500px !important;
+}
+.inner-imgone:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+
+  
+}
 
 
 /* again */
@@ -223,7 +235,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   position: relative;
   
        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
-height: 350px;
+height: 280px;
 
 
 }
@@ -239,7 +251,7 @@ height: 350px;
 .img-wrapperinersecond button{
     position: absolute;
     z-index: 1000;
-    bottom: -10px;
+    bottom: -18px;
 
   
     left: 50%;
@@ -251,11 +263,8 @@ height: 350px;
      font-weight: 700;
      padding-top: 15px;
      padding-bottom: 15px;
-     border-top-right-radius: none !important;
-     border-top-left-radius: none !important;
-     border-bottom-left-radius: 15px;
-     border-bottom-right-radius: 15px;
-     width: 90%;
+      border-radius: 0 0 1rem 1rem !important;
+     width: 94%;
    
 }
 .img-wrapperinersecond:hover button{
@@ -594,7 +603,7 @@ height: 350px;
   color: #111;
   margin: 1rem 0;
   border-radius: 30px !important;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
 }
 .accordion-item-header {
   padding: 0.5rem 3rem 0.5rem 1rem;
