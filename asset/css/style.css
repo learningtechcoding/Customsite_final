@@ -257,6 +257,9 @@
 
 
 }
+.img-wrapperinersmall{
+  height: 200px !important;
+}
 /* .inner-img {
   transition: 0.3s;
       width: 100%;

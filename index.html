@@ -27,6 +27,164 @@
     <!--###############> AOS Animation Style Start <#################  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--###############> AOS Animation Style End  <#################  -->
+
+
+
+
+
+
+
+
+    
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+ 
+.captchaform {
+  position: relative;
+  margin: 20px auto;
+  width: 300px;
+}
+ 
+.submit__generated {
+  display: inline-block;
+}
+
+.submit__generated span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  vertical-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  font-size: 16px;
+  color:White;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid  white;
+  border-radius: 4px;
+}
+
+.submit__generated.valid:after,
+.submit__generated.unvalid:after {
+  font-family: FontAwesome;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.submit__generated.valid:after {
+  content: "\f00c";
+  color: #2ecc71;
+}
+
+.submit__generated.unvalid:after {
+  content: "\f00d";
+  color: #e74c3c;
+}
+
+.submit__generated.valid .submit__input {
+  border: 1px solid #2ecc71;
+  color: #2ecc71 !important;
+}
+
+.submit__generated.unvalid .submit__input {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+}
+
+.submit__generated .submit__input {
+  position: relative;
+  outline: 0;
+  height: 35px;
+  width: 35px;
+  border-radius: 4px;
+  border: 1px solid #42A0DD;
+  color: #42A0DD;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  top: -2px;
+}
+
+.refreshcaptcha {
+  margin: 4px 0 0px 5px;
+  padding: 5px;
+  font-size: 18px;
+  color: White;
+  cursor: pointer;
+  transform-origin: center center;
+  transition: transform 0.2s ease-out, color 0.2s ease-out;
+}
+.refreshcaptcha:hover {
+  color: white;
+  transform: rotate(180deg);
+}
+
+.submit__error,
+.submit__error--empty {
+  color: #e74c3c;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+
+.submit {
+  display: block;
+  margin: 50px 0;
+  padding: 7px 15px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  outline: none;
+  border: 0;
+  background-color: #42A0DD;
+  background-clip: padding-box;
+  border-radius: 3px;
+  box-shadow: 0 4px 0 #2C81BA;
+  opacity: 1;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+}
+
+.submit:hover {
+  background-color: #3498db;
+}
+
+.submit:active,
+.submit.enter-press,
+.submit.overlay {
+  margin: 55px 0 46px 0;
+  box-shadow: none;
+}
+
+.submit__overlay {
+  height: 50px;
+  width: 110px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  margin-top: -90px;
+  margin-left: -5px;
+}
+
+.low-opa {
+  opacity: 0.4;
+}
+
+.fadeOut {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fadeIn {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+
+ 
+
+</style>
   </head>
   <body>
 
@@ -34,12 +192,12 @@
 
     <!-- ----------Navbar------------------------->
     <div class="container py-2">
-      <div class="row">
+      <div class="row p-0 m-0">
         <div class="col-lg-3">
           <a href class="logo d-none d-lg-block"><img src="./asset/img/logo.png"
               class="mb-2" alt width="150px"></a>
         </div>
-        <div class="col-lg-6 ">
+        <div class="col-lg-6 p-0 m-0 ">
           <div class="d-flex justify-content-around pt-2">
             <div>
               <a href class="text-decoration-none">
@@ -65,7 +223,7 @@
     <section class="nav-bg">
 
       <div class="container">
-        <div class="row ">
+        <div class="row p-0 m-0 ">
           <nav class="navbar navbar-expand-lg  nav-bg">
             <div class="container d-flex justify-content-between">
               <a href class="logo d-block d-lg-none"><img
@@ -244,7 +402,7 @@
 
             <section class="bg-banner">
               <div class="container">
-                <div class="row p-3">
+                <div class="row p-0 m-0 p-3">
                   <div class="col-lg-5 col-md-6 ">
                     <div class="Left-col">
                       <p class="para-txt text-white pt-5 pt-6">CUSTOM BOXES</p>
@@ -279,7 +437,7 @@
               <p class="fst-italic">Custom Boxes</p>
               <h3 class="CS-TXT mb-5 ms-4 ">Customized bulk
                 paper bags</h3>
-              <div class="row">
+              <div class="row p-0 m-0">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5">
                   <button
@@ -316,21 +474,21 @@
 
       <section class="bg-transparent masterlightsection">
         <div class="container ">
-          <div class="row ">
-            <div class="col-md-4 ">
+          <div class="row p-0 m-0 ">
+            <div class="col-md-4  mb-3 mb-md-0">
               <div class="bg-white boxeshome">
                 <div class=" d-flex p-3 mb-md-0 mb-5 ">
                   <div>
                     <img src="./asset/img/Group 14.png" alt width="54px">
                   </div>
-                  <div class="ms-3">
+                  <div class="ms-3 ">
                     <p class="mb-0 banner-para">Free Shipping & Return</p>
                     <p class="mb-0">Free Shipping on orders over $199</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4  mb-3 mb-md-0">
               <div class="bg-white boxeshome">
                 <div class="d-flex p-3 mb-md-0 mb-5">
                   <div>
@@ -343,7 +501,7 @@
                 </div>
               </div>
             </div>
-            <div class=" col-md-4 ">
+            <div class=" col-md-4  mb-3 mb-md-0">
               <div class="bg-white boxeshome">
                 <div class="d-flex p-3">
                   <div>
@@ -364,10 +522,10 @@
     <!--#################> Main Home Page End<############# -->
 
     <section class="py-5 mt-5 topsellingitemsection">
-      <div class="container-fluid px-2 px-md-5"
+      <div class="container-fluid  px-md-5"
         style="  transform: skewY(4deg) !important;">
         <div class="text-center settingmain">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-md-4"></div>
             <div class="col-md-4">
               <h1 class="mainhweading"><span>Top selling</span> items</h1>
@@ -378,7 +536,7 @@
 
           </div>
         </div>
-        <div class="row py-5">
+        <div class="row p-0 m-0 py-5">
           <div class="col-md-6  mt-3 mt-lg-0 order-2 order-lg-0">
             <div class="img-wrapper">
               <button class="px-5 ">Packaging</button>
@@ -386,8 +544,8 @@
                 src="./asset/img/selling.png" />
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="row">
+          <div class="col-lg-6 p-0 m-0">
+            <div class="row p-0 m-0">
               <div class="col-md-6  ">
                 <div class="img-wrapperiner">
                   <button class="px-5 ">Packaging</button>
@@ -427,10 +585,10 @@
       </div>
     </section>
 
-    <section class="py-5 px-2 px-md-5">
+    <section class="py-5 px-md-5">
       <div class="container-fluid">
         <div class="text-center settingmain">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-md-4"></div>
             <div class="col-md-4">
               <h1 class="mainhweading"><span>Top selling</span> items</h1>
@@ -442,7 +600,7 @@
           </div>
         </div>
 
-        <div class="row py-5">
+        <div class="row p-0 m-0 py-5">
           <div class="col-lg-3 col-md-4 col-sm-6  mt-3 ">
             <div class="img-wrapperinersecond">
               <button class="px-5 ">Packaging</button>
@@ -547,7 +705,7 @@
     <!--################> Get A Qouet Start <############## -->
     <section>
       <div class="text-center settingmain">
-        <div class="row p-0 m-0">
+        <div class="row p-0 m-0 p-0 m-0">
           <div class="col-md-4"></div>
           <div class="col-md-4">
             <h1 class="mainhweading"><span>Get A Free</span> Quote</h1>
@@ -561,8 +719,8 @@
       <div class=" mainnewqoute">
 
         <div class="container pt-5 pb-3">
-               <form> 
-          <div class="row newqoute">
+               <form > 
+          <div class="row p-0 m-0 newqoute">
             <div class="col-md-6">
          
                 <div class="form-row row">
@@ -610,7 +768,7 @@
            
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 " >
          
                 <div class="form-row row">
                   <div class="form-group col-md-12 mt-3">
@@ -696,7 +854,7 @@
 
                 </div>
 
-                <div class="row pt-4 px-3">
+                <div class="row p-0 m-0 pt-4 px-3">
                   <div class="col-lg-3 col-6 mt-2 form-check">
                     <input class="form-check-input" type="checkbox" value
                       id="flexCheckDefault">
@@ -765,8 +923,31 @@
 
            
             </div>
-           
 
+            <form action="" class="captchaform">
+           
+<div class="col-md-3"></div>
+
+<div class="col-md-6 py-2 my-4 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-evenly text-center" style="border: 1px solid #F6F7FA;">
+  <h5 class="text-white">Are you human or ?</h5>
+    <label class="submit__control ">
+  
+   <div>
+     <div class="submit__generated">
+
+    </div>
+    <i class="fa fa-refresh refreshcaptcha"></i>
+   </div>
+    
+  </label>
+
+  
+</div>
+
+ 
+<div class="col-md-3"></div>
+
+</form>
            <div class="col-12 mt-3 d-flex justify-content-center">
         <div class="img-wrapperinersecondsubmit">
               <button class="px-5 ">Packaging</button>
@@ -787,7 +968,7 @@
     <section id="gallery" class="pb-5 px-2 px-md-5 ">
       <div class="py-5">
         <div class="text-center settingmain">
-          <div class="row p-0 m-0">
+          <div class="row p-0 m-0 p-0 m-0">
             <div class="col-md-4"></div>
             <div class="col-md-4">
               <h1 class="mainhweading"><span>Top selling</span> items</h1>
@@ -798,10 +979,10 @@
 
           </div>
         </div>
-        <div class="container-fluid px-4">
+        <div class="container-fluid p-0  px-md-4">
 
           <!-- Filterable Gallery -->
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-md-2"></div>
             <div class="col-md-8">
               <ul class="gallery_tabs">
@@ -815,7 +996,7 @@
             <div class="col-md-2"></div>
           </div>
 
-          <div class="row gallery_wrapper">
+          <div class="row p-0 m-0 gallery_wrapper">
             <div class=" gallery_item p-0 camera">
               <h3>Embossing</h3>
               <img
@@ -923,7 +1104,7 @@
 
       <div style="  transform: skewY(4deg) !important;">
         <div class="text-center settingmain">
-          <div class="row p-0 m-0">
+          <div class="row p-0 m-0 p-0 m-0">
 
             <div class="col-md-12 pb-5">
               <h1 class=" text-center mainhweading"><span>Custom Printed </span>
@@ -933,7 +1114,7 @@
 
           </div>
         </div>
-        <div class="row p-0 m-0">
+        <div class="row p-0 m-0 p-0 m-0">
 
           <div class="col-md-6 contentfaqs ">
             <div class=" settingmain customhead text-justify">
@@ -974,7 +1155,7 @@
 
         </div>
         <div class="container-fluid">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-md-2"></div>
             <div class="col-md-8">
               <div class="accordion ">
@@ -1079,7 +1260,7 @@
 
       <div>
         <div class="text-center settingmain pb-5">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-md-4"></div>
             <div class="col-md-4">
               <h1 class="mainhweading"><span>Print By</span>Categories</h1>
@@ -1093,7 +1274,7 @@
 
         <!-- ---------------------section2------------------------ -->
         <div class="container-fluid pb-5">
-          <div class="row px-lg-3 gy-5  " >
+          <div class="row p-0 m-0 px-lg-3 gy-5  " >
 
             <div class="col-md-5 col-sm-12">
               <div class="sect2_bg-img p-5 rounded-4">
@@ -1117,9 +1298,9 @@
 
             <div class="col-md-7 col-sm-12">
               
-            <div class="row">
+            <div class="row p-0 m-0">
               <div class="col-lg-4 col-md-6 mb-4   ">
-                <div class="img-wrapperiner rounded-4">
+                <div class="img-wrapperiner  img-wrapperinersmall rounded-4">
                   <button class="px-5 ">Packaging</button>
                   <img class="inner-img"
                     src="./asset/img/selling2.png" />
@@ -1127,7 +1308,7 @@
               </div>
 
               <div class="col-lg-4 col-md-6  mb-4 ">
-                <div class="img-wrapperiner rounded-4">
+                <div class="img-wrapperiner  img-wrapperinersmall rounded-4">
                   <button class="px-5 ">Packaging</button>
                   <img class="inner-img"
                     src="./asset/img/selling3.png" />
@@ -1135,7 +1316,7 @@
               </div>
 
               <div class="col-lg-4 col-md-6   mb-4 ">
-                <div class="img-wrapperiner rounded-4">
+                <div class="img-wrapperiner img-wrapperinersmall rounded-4">
                   <button class="px-5 ">Packaging</button>
                   <img class="inner-img"
                     src="./asset/img/selling6.png" />
@@ -1143,21 +1324,21 @@
               </div>
 
               <div class="col-lg-4 col-md-6 mb-4 mb-md-0  ">
-                <div class="img-wrapperiner rounded-4">
+                <div class="img-wrapperiner img-wrapperinersmall rounded-4">
                   <button class="px-5 ">Packaging</button>
                   <img class="inner-img"
                     src="./asset/img/selling5.png" />
                 </div>
               </div>
               <div class="col-lg-4 col-md-6    mb-4 mb-md-0 ">
-                <div class="img-wrapperiner  rounded-4">
+                <div class="img-wrapperiner img-wrapperinersmall rounded-4">
                   <button class="px-5 ">Packaging</button>
                   <img class="inner-img"
                     src="./asset/img/selling6.png" />
                 </div>
               </div>
               <div class="col-lg-4 col-md-6   mb-4 mb-md-0 ">
-                <div class="img-wrapperiner rounded-4">
+                <div class="img-wrapperiner img-wrapperinersmall rounded-4">
                   <button class="px-5 ">Packaging</button>
                   <img class="inner-img"
                     src="./asset/img/selling3.png" />
@@ -1194,7 +1375,7 @@
       <!-- style="transform: skewY(-4deg);" -->
       <div>
         <div class="text-center settingmain">
-          <div class="row p-0 m-0">
+          <div class="row p-0 m-0 p-0 m-0">
             <div class="col-md-4 p-0 m-0"></div>
             <div class="col-md-4 p-0 m-0">
               <h1 class="mainhweading"><span>Users</span> Review </h1>
@@ -1209,7 +1390,7 @@
         <!-- ---Explore Our Services Banner 2--- -->
         <div class="slider-div mb-5 pb-5">
           <div class="container swiper border-8">
-            <div class="row m-0 topic-card slider-bg-cl">
+            <div class="row p-0 m-0 m-0 topic-card slider-bg-cl">
               <div class="col-lg-12 col-12 ">
                 <div class="slide-container">
                   <div class="card-wrapper swiper-wrapper">
@@ -1749,7 +1930,7 @@
       <!-- ------------------------------Section3----------------------------- -->
 
       <div class="text-center settingmain pb-5">
-        <div class="row p-0 m-0">
+        <div class="row p-0 m-0 p-0 m-0">
           <div class="col-md-4 p-0 m-0"></div>
           <div class="col-md-4 p-0 m-0">
             <h1 class="mainhweading"><span>Our Latest</span> Blogs </h1>
@@ -1762,7 +1943,7 @@
       </div>
 
       <div class="container-fluid pb-5">
-        <div class="row px-3">
+        <div class="row p-0 m-0 px-3">
           <div class="col-lg-3 col-md-12 col-sm-12">
             <div class="card Card-FB mb-3">
               <div class="img-container">
@@ -1989,7 +2170,7 @@
 
           <!-- Footer Links -->
           <div
-            class="footerLinks col-12 col-md-12 col-lg-6 d-flex justify-content-between pe-5 flex-column flex-md-row align-items-start mt-4">
+            class="footerLinks col-12 col-md-12 col-lg-6 p-0 m-0 d-flex justify-content-between pe-5 flex-column flex-md-row align-items-start mt-4">
             <div class="Info">
               <h5 class="text-capitalize mb-4">
                 information
@@ -2079,6 +2260,9 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
   });
 });
     </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -2088,6 +2272,135 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
 
     <!-- <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+
+
+
+
+      <script>
+    var a, b, c,
+    submitContent,
+    captcha,
+    locked,
+    validSubmit = false,
+    timeoutHandle;
+
+  // Generating a simple sum (a + b) to make with a result (c)
+function generateCaptcha(){
+  a = Math.ceil(Math.random() * 10);
+  b = Math.ceil(Math.random() * 10);
+  c = a + b;
+  submitContent = '<span>' + a + '</span> + <span>' + b + '</span>' +
+    ' = <input class="submit__input" type="text" maxlength="2" size="2" required />';
+  $('.submit__generated').html(submitContent);
+
+  init();
+}
+
+
+// Check the value 'c' and the input value.
+function checkCaptcha(){
+  if(captcha === c){
+    // Pop the green valid icon
+    $('.submit__generated')
+      .removeClass('unvalid')
+      .addClass('valid');
+    $('.submit').removeClass('overlay');
+    $('.submit__overlay').fadeOut('fast');
+
+    
+    validSubmit = true;
+  }
+  else {
+  
+    // Pop the red unvalid icon
+    $('.submit__generated')
+      .removeClass('valid')
+      .addClass('unvalid');
+    $('.submit').addClass('overlay');
+    $('.submit__overlay').fadeIn('fast');
+    validSubmit = false;
+  }
+  return validSubmit;
+}
+
+function unlock(){ locked = false; }
+
+
+// Refresh button click - Reset the captcha
+$('.submit__control i.fa-refresh').on('click', function(){
+  if (!locked) {
+    locked = true;
+    setTimeout(unlock, 500);
+    generateCaptcha();
+    setTimeout(checkCaptcha, 0);
+  }
+});
+
+
+// init the action handlers - mostly useful when 'c' is refreshed
+function init(){
+  $('.captchaform').on('submit', function(e){
+    e.preventDefault();
+    if($('.submit__generated').hasClass('valid')){
+      // var formValues = [];
+      captcha = $('.submit__input').val();
+      if(captcha !== ''){
+        captcha = Number(captcha);
+      }
+
+      checkCaptcha();
+
+      if(validSubmit === true){
+        validSubmit = false;
+        // Temporary direct 'success' simulation
+        submitted();
+      }
+    }
+    else {
+      return false;
+    }
+  });
+
+
+  // Captcha input result handler
+  $('.submit__input').on('propertychange change keyup input paste', function(){
+    // Prevent the execution on the first number of the string if it's a 'multiple number string'
+    // (i.e: execution on the '1' of '12')
+    window.clearTimeout(timeoutHandle);
+    timeoutHandle = window.setTimeout(function(){
+      captcha = $('.submit__input').val();
+      if(captcha !== ''){
+        captcha = Number(captcha);
+      }
+      checkCaptcha();
+    },150);
+  });
+
+
+  // Add the ':active' state CSS when 'enter' is pressed
+ 
+
+
+  // Refresh button click - Reset the captcha
+  $('.submit-control i.fa-refresh').on('click', function(){
+    if (!locked) {
+      locked = true;
+      setTimeout(unlock, 500);
+      generateCaptcha();
+      setTimeout(checkCaptcha, 0);
+    }
+  });
+
+
+  // Submit white overlay click
+  $('.submit-form-overlay').on('click', function(){
+    checkCaptcha();
+  });
+}
+
+generateCaptcha();
+</script>
 
   </body>
 
