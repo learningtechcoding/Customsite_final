@@ -164,7 +164,7 @@
   transition: 0.3s;
       width: 100%;
     object-fit: cover;
-    height: 500px !important;
+    height: 515px !important;
     
 }
 
@@ -227,7 +227,7 @@
      font-weight: 700;
      padding-top: 15px;
      width: 180px;
- 
+ text-wrap: nowrap;
 
      padding-bottom: 15px;
    
