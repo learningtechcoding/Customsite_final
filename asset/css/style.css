@@ -1247,3 +1247,119 @@
      height: 606px !important;
    }
  }
+
+
+ /* service page css start --------------------------------------------- */
+ .plain{
+  font-weight: 800;
+ }
+ .imgOne{
+  border-radius: 15px !important;
+  height: 450px !important;
+  object-fit: cover;
+  
+ }
+ .imgOne:hover{
+  border-radius: 15px !important;
+  transition: 0.3s;
+  width: 100%;
+  object-fit: cover;
+ }
+ .imgRound{
+  border-radius: 15px !important;
+  height: 135px;
+  object-fit: cover;
+ }
+ .shadOne{
+  verflow: hidden;
+    border-radius: 30px;
+    position: relative;
+    /* height: 509px; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .shadTwo{
+  border-radius: 30px;
+  position: relative;
+   
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .oneDig{
+  font-size: 50px !important;
+  background-color: yellow;
+  
+  border-radius: 50% !important;
+  /* padding: 35px !important; */
+  aspect-ratio: 1 !important;
+  height: 80px !important;
+  color: white;
+ }
+ .getSp{
+  color: #125DFC !important;
+ }
+  .formDiv{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .whats{
+    color: green;
+    font-size: 50px !important;
+  }
+  .whatsPara{
+    background-color: green !important;
+    border-radius: 35px !important;
+    color: white;
+    text-wrap: no-wrap;
+  }
+  .inputSHad{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+  }
+  .gallery_tabstwo {
+    list-style: none;
+  }
+  .gallery_tabstwo {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.8rem;
+    padding: 1.2rem;
+    /* border-radius: 50px; */
+    box-shadow: var(--box-shadow);
+  }
+ 
+  .gallery_tabstwo li {
+    padding: 0.7rem 2rem;
+ 
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+ 
+  .gallery_tabstwo li.active,
+  .gallery_tabstwo li:hover {
+    background-color: var(--main-color);
+    color: #fff;
+ 
+    border-radius: 15px;
+ 
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+
+/* media query ----------------------- */
+@media screen and (max-width: 992px) {
+  .headSet{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+  .bg-white{
+margin-top: 0px !important;
+ 
+  }
+}
+
+/* media query ----------------------- */
+
+ /* service page css end --------------------------------------------- */
