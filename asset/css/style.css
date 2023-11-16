@@ -1256,6 +1256,7 @@
  .imgOne{
   border-radius: 15px !important;
   height: 450px !important;
+  width: 100%;
   object-fit: cover;
   
  }
@@ -1345,8 +1346,81 @@
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
-
-
+  .navBorder{
+    border: none !important;
+    
+  }
+  /* .navActive:active{
+    background: none !important;
+  } */
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: none !important;
+    border: none !important;
+  }
+  .lineHeight{
+    line-height: 35px !important;
+  }
+  .galleryBg{
+    background-color: #f6f7fa !important;
+  }
+  .cardHeight{
+    height: 390px !important;
+  }
+  .cardP{
+    font-size: 13px !important;
+  }
+  .discusHeading{
+    font-size: 70px !important;
+  }
+  .withSpan{
+    color: #125DFC !important;
+  }
+  .inquiryBtn{
+    color: #fff !important;
+    background-color: #125DFC;
+  }
+  .inquiryBtn:hover{
+    color: #fff !important;
+    background-color: #FAB900;
+  }
+  .textFont{
+    font-size: 25px !important;
+  }
+  .roundOff{
+    width: 80px;
+    /* height: 75px; */
+    /* border-radius: 44%; */
+    background-color: red !important;
+    color: white;
+    display: flex;
+     
+    /* flex-direction: column; */
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  /* .mainhweadingtwo::before {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    bottom: 0px;
+    left: 50%;
+    top: 120%;
+    transform: translate(-50%, -50%);
+    background-color: #FAB900;
+  } */
+  .perPara{
+    font-size: 18px !important;
+    color: #000;
+    font-weight: 600;
+  }
+  .deletedPrice{
+    font-size: 12px !important;
+    color: #000;
+  }
 /* media query ----------------------- */
 @media screen and (max-width: 992px) {
   .headSet{
@@ -1357,6 +1431,16 @@
   .bg-white{
 margin-top: 0px !important;
  
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardHeight{
+    height: 550px !important;
+  }
+}
+@media screen and (max-width: 452px) {
+  .cardHeight{
+    height: 470px !important;
   }
 }
 
