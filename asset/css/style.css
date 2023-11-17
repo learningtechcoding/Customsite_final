@@ -149,8 +149,9 @@
  .inner-imgone {
    transition: 0.3s;
    width: 100%;
-   object-fit: cover;
-   height: 500px !important;
+  object-fit: cover;
+  height: 500px;
+ 
  }
 
  .inner-imgone:hover {
@@ -1234,7 +1235,7 @@
    }
 
    .inner-img {
-     height: 501px !important;
+     height: 510px !important;
    }
  }
 
@@ -1256,26 +1257,47 @@
  .imgOne{
   border-radius: 15px !important;
   height: 450px !important;
+  transition: 0.3s;
   width: 100%;
   object-fit: cover;
   
  }
  .imgOne:hover{
   border-radius: 15px !important;
-  transition: 0.3s;
   width: 100%;
+  transform: scale(1.06);
+  cursor: pointer;
   object-fit: cover;
  }
  .imgRound{
   border-radius: 15px !important;
   height: 135px;
+  transition: 0.3s;
   object-fit: cover;
  }
+ .imgRound:hover{
+  border-radius: 15px !important;
+  height: 135px;
+  transform: scale(1.06);
+  cursor: pointer;
+  object-fit: cover;
+ }
+ .card-img-top{
+  object-fit: cover;
+  transition: 0.3s;
+ }
+ .card-img-top:hover{
+  object-fit: cover;
+   transform: scale(1.06);
+   cursor: pointer;
+ }
  .shadOne{
-  verflow: hidden;
+  overflow: hidden;
     border-radius: 30px;
-    position: relative;
-    /* height: 509px; */
+    position: relative; 
+      overflow: hidden;
+      border-radius: 30px;
+      
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
  }
  .shadTwo{
@@ -1346,6 +1368,17 @@
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
   }
+  .img-wrapper {
+    /* width: 300px;
+   height: 300px; */
+    overflow: hidden;
+    border-radius: 30px;
+    position: relative;
+    height: 509px;
+ 
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ 
+  }
   .navBorder{
     border: none !important;
     
@@ -1353,24 +1386,31 @@
   /* .navActive:active{
     background: none !important;
   } */
-  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  /* .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
     background: none !important;
     border: none !important;
-  }
+  } */
   .lineHeight{
     line-height: 35px !important;
   }
   .galleryBg{
-    background-color: #f6f7fa !important;
+    background-color: #F6F7FA !important;
+    transform: skewY(-4deg) !important;
+    margin-top: 90px;
+    margin-bottom: 90px;
   }
   .cardHeight{
     height: 390px !important;
+    overflow: hidden;
+    position: relative;
   }
   .cardP{
     font-size: 13px !important;
   }
   .discusHeading{
     font-size: 70px !important;
+    font-weight: 700;
+    color: white;
   }
   .withSpan{
     color: #125DFC !important;
@@ -1385,6 +1425,7 @@
   }
   .textFont{
     font-size: 25px !important;
+    color: white;
   }
   .roundOff{
     width: 80px;
@@ -1401,17 +1442,7 @@
     font-weight: bold;
     font-size: 20px;
   }
-  /* .mainhweadingtwo::before {
-    content: '';
-    position: absolute;
-    width: 170px;
-    height: 3px;
-    bottom: 0px;
-    left: 50%;
-    top: 120%;
-    transform: translate(-50%, -50%);
-    background-color: #FAB900;
-  } */
+   
   .perPara{
     font-size: 18px !important;
     color: #000;
@@ -1421,6 +1452,63 @@
     font-size: 12px !important;
     color: #000;
   }
+   
+  .giftClr{
+    color:  #125DFC !important;
+  }
+  .discussBg{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/custom1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+  }
+  .giftBg{
+    /* background-color:  #eff8ff !important; */
+  }
+  .oneHead{
+    color: #FAB900 !important;
+    font-size: 60px !important;
+  }
+  .navDes{
+    background-color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.8rem;
+    padding: 1.2rem;
+    border-radius: 50px;
+    box-shadow: var(--box-shadow);
+  }
+  .navlinkDes{
+    /* padding: 0.7rem 2rem; */
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none !important;
+    color: black !important;
+    /* transition: all 0.3s ease; */
+  }
+  .navlinkDes.active{
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    
+  }
+  .navlinkDes:hover{
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+    border-radius: 15px !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+  }
+
+
+
+
+
 /* media query ----------------------- */
 @media screen and (max-width: 992px) {
   .headSet{

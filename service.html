@@ -52,7 +52,7 @@
         line-height: 35px;
         font-weight: bold;
         font-size: 16px;
-        color: White;
+        /* color: White; */
         text-align: center;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -626,7 +626,7 @@
                                   
                                   <label class="submit__control">
                                     <div>
-                                      <div class="submit__generated  text-dark"></div>
+                                      <div class="submit__generated "></div>
                                       <!-- <i class="fa fa-refresh refreshcaptcha bg-dark"></i> -->
                                     </div>
                                   </label>
@@ -655,10 +655,10 @@
  
 
     <!--====== description Section  Start ======-->
-    <section id="gallery" class="pb-5 px-2 px-md-5">
-      <div class="py-5">
+    <section id="gallery" class="px-2 px-md-5 galleryBg">
+      <div class="pt-3 " style="transform: skewY(4deg) !important">
         
-        <div class="container-fluid p-3 px-md-4 galleryBg">
+        <div class="container-fluid p-3 px-md-4 ">
           <!-- Filterable Gallery -->
           
           <nav>
@@ -707,18 +707,72 @@
     </section>
     <!--====== description Section  End ======-->
 
+    <!-- ordering section start ---------------- -->
+    <section class="container-fluid  px-lg-5 px-0">
+      <div class="py-4 giftBg">
+        <h1 class="text-center">Ordering Custom <span class="giftClr">Gift Boxes</span> is Quick & Easy here</h1>
+        <div class="row pt-4">
+          <div class="col-md-3">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="mx-1">
+                <h1 class="oneHead"><i>1.</i></h1>
+              </div>
+              <div>
+                <h4>Specify Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, odio?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="mx-1">
+                <h1 class="oneHead"><i>2.</i></h1>
+              </div>
+              <div>
+                <h4>Get Custom Quote</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, odio?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="mx-1">
+                <h1 class="oneHead"><i>3.</i></h1>
+              </div>
+              <div>
+                <h4>Validate Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, odio?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="mx-1">
+                <h1 class="oneHead"><i>4.</i></h1>
+              </div>
+              <div>
+                <h4>Place Order</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, odio?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ordering section end ---------------- -->
+
     <!-- gallery section start --------------- -->
      <section>
-      <div class="container-fluid px-lg-5 px-0">
+      <div class="container-fluid px-lg-5 px-0 pt-5">
         <nav>
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Coating & Lamination</a>
-              <a class="nav-item nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Printing Options</a>
-              <a class="nav-item nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Special Finishes </a>
-              <a class="nav-item nav-link" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Paperboard </a>
-              <a class="nav-item nav-link" id="tab5-tab" data-bs-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Corrugated</a>
-              <a class="nav-item nav-link" id="tab6-tab" data-bs-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Fluted Grades</a>
-              <a class="nav-item nav-link" id="tab7-tab" data-bs-toggle="tab" href="#tab7" role="tab" aria-controls="tab7" aria-selected="false">Rigid Materials</a>
+          <div class="nav nav-tabs navDes" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link   navlinkDes" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Coating & Lamination</a>
+              <a class="nav-item nav-link navlinkDes" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Printing Options</a>
+              <a class="nav-item nav-link navlinkDes" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Special Finishes </a>
+              <a class="nav-item nav-link navlinkDes" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Paperboard </a>
+              <a class="nav-item nav-link navlinkDes" id="tab5-tab" data-bs-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Corrugated</a>
+              <a class="nav-item nav-link navlinkDes" id="tab6-tab" data-bs-toggle="tab" href="#tab6" role="tab" aria-controls="tab6" aria-selected="false">Fluted Grades</a>
+              <a class="nav-item nav-link navlinkDes" id="tab7-tab" data-bs-toggle="tab" href="#tab7" role="tab" aria-controls="tab7" aria-selected="false">Rigid Materials</a>
           </div>
       </nav>
       
@@ -1254,15 +1308,15 @@
   
 
     <!--################> Discuss project Start <###########  -->
-    <section class="my-5">
+    <section class="my-5 discussBg">
       <div class="container">
-       <div>
+       <div class="d-flex justify-content-center align-items-center flex-column pt-5 ">
         <h1 class="discusHeading text-center">
           DISCUSS YOUR PROJECT <br>
           <span class="withSpan">WITH US TODAY</span>
         </h1>
-        <p class="text-center textFont">Give us a call at <b>1-800-2095-992</b>(8am to 5pm) Mon-Fri EST. </p>
-        <p class="text-center textFont">Or <button type="button" class="btn inquiryBtn px-5 py-2">Send an Inquiry</button></p>
+        <p class=" textFont">Give us a call at <b>1-800-2095-992</b>(8am to 5pm) Mon-Fri EST. </p>
+         <button type="button" class="btn inquiryBtn px-5 py-2">Send an Inquiry</button> 
        </div>
       </div>
     </section>
@@ -1271,14 +1325,14 @@
     <!--################> Discuss project End <#############  -->
   
 
-    <section class="">
+    <section class="productBg">
       <!-- ------------------------------Section3----------------------------- -->
 
       <div class="text-center settingmain pb-5">
         <div class="row p-0 m-0 p-0 m-0">
           <div class="col-md-4 p-0 m-0"></div>
           <div class="col-md-4 p-0 m-0">
-            <h1 class="mainhweadingtwo"><span>Related</span> Products</h1>
+            <h1 class="mainhweadingtwo pt-3"><span>Related</span> Products</h1>
           </div>
           <div class="col-md-4 p-0 m-0"></div>
         </div>
