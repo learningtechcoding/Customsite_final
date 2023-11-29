@@ -1518,6 +1518,9 @@ li a:hover {
 .w95{
   width: 95% !important;
 }
+.navv ul li a:hover{
+  color: #125dfc  ;
+}
 @media (max-width:768px) {
 .discusHeading {
   font-size: 50px !important;
