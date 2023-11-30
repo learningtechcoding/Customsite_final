@@ -65,7 +65,7 @@ body{
     background-color:#F5F7FA !important;
 }
 .qualityHeading h1{
-    width: 55%;
+    width: 100%;
     margin: auto;
 
 }
@@ -151,3 +151,34 @@ body{
   .myCardPoppin{
     height: 95% !important;
   }
+
+
+
+  /* packing */
+  .packing{
+    margin-top: 6rem;
+  }
+  .packing-right{
+    width: 90%;
+  }
+  .packing-right span{
+    color: #8500fe;
+  }
+  .packing-right p{
+    font-size: 15px;
+  }
+
+
+
+  /* ====== cards ====*/
+  .cardddd{
+    border-radius: 50% !important;
+  }
+  .cardddd svg{
+    width: 65px !important;
+    height: 65px !important;
+  }
+.font-sz{
+  font-size: 14px !important;
+}
+  
