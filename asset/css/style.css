@@ -97,7 +97,7 @@
 
   left: 50%;
   transform: translate(-50%, -0%);
-  border-radius: 0px 0px 1rem 1rem !important;
+  border-radius: 1rem 1rem 1rem 1rem !important;
   background-color: White;
   border: none;
   font-family: "Poppins", sans-serif;
@@ -201,7 +201,7 @@
 
   left: 50%;
   transform: translate(-50%, -0%);
-  border-radius: 0px 0px 1rem 1rem !important;
+  border-radius: 1rem 1rem 1rem 1rem !important;
   background-color: White;
   border: none;
   font-family: "Poppins", sans-serif;
@@ -262,7 +262,7 @@
   border: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  padding: 10px 0px;
+  padding: 15px 0px;
   border-radius: 1rem !important;
   width: 65%;
   font-size: 12px;
@@ -282,7 +282,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   width: 300px !important;
-  border-radius: 0 0 1rem 1rem !important;
+  border-radius: 1rem 1rem 1rem 1rem !important;
   width: 100%;
 }
 
@@ -713,21 +713,26 @@
 .fixedtext button {
   background-color: transparent !important;
   width: 300px;
-
+background:#fff !important;
   padding: 8px;
   border: none;
   color: black;
   font-size: 20px;
   font-weight: 800;
   border-radius: 15px;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
+  /* border-top-right-radius: 0px;
+  border-top-left-radius: 0px; */
 }
 
 .fixedtext button:hover {
-  background-color: #fbc11d;
+  background-color: #fbc11d !important;
   transition: 0.3s;
   color: White;
+}
+
+
+.locationsetting{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 /*####################> Bg Fixed Section End<############## */
@@ -1127,7 +1132,7 @@ li a:hover {
   font-weight: 700;
   padding-top: 15px;
   padding-bottom: 15px;
-  border-radius: 0 0 1rem 1rem !important;
+  border-radius: 1rem 1rem 1rem 1rem !important;
   width: 180px;
 }
 
@@ -1204,7 +1209,7 @@ li a:hover {
 
 .card-img-top:hover {
   object-fit: cover;
-  transform: scale(1.06);
+  /* transform: scale(1.06); */
   cursor: pointer;
 }
 
@@ -1337,7 +1342,7 @@ li a:hover {
   position: relative;
 }
 .cardHeight img {
-  height: 150px;
+  height: 170px;
 }
 
 .cardP {
@@ -1506,6 +1511,9 @@ li a:hover {
   display: block !important;
 }
 #BoxByStyle:hover .dropdown-menu {
+  display: block !important;
+}
+#BoxByStylematerail:hover .dropdown-menu {
   display: block !important;
 }
 .Card-FB {
