@@ -13,9 +13,9 @@ body{
     text-decoration: none !important;
     box-shadow:  none !important;
   }
-  h1{
-    font-size: 2.7rem !important;
-  }
+  /* h1{
+    font-size: 2rem !important;
+  } */
 .heroConatiner{
     background-color: #F9FAFF;
 }
@@ -25,9 +25,7 @@ body{
 .w-40{
     width: 40% !important;
 }
-.w-60{
-    width: 60% !important;
-}
+
 .heroText h1 span{
     color: var(--blue);
 }
@@ -36,8 +34,15 @@ body{
     font-weight:600 !important;
     letter-spacing: 1.5px;
 }
-.fw600{
-    font-weight: 600 !important;
+@media (min-width: 1400px) {
+  .wid {
+    width: 70% !important;
+  }
+}
+@media (max-width: 776px) {
+  .wid {
+    width: 100% !important;
+  }
 }
 .cardImg{
     background-color: #ffffff;
