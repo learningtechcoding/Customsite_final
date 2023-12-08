@@ -48,6 +48,7 @@
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+
 .topsellingitemsection {
   background-color: #f6f7fa;
   transform: skewY(-4deg);
@@ -115,9 +116,10 @@
 }
 
 .img-wrapper:hover button {
-  background-color: #fab900;
-  color: white;
-  transition: 0.5s;
+  background-color: #fab900 !important;
+  color: white !important;
+  transition: 0.5s !important;
+  border: none !important;
 }
 
 .inner-img:hover {
@@ -214,21 +216,12 @@
 }
 
 .img-wrapperiner:hover button {
-  background-color: #fab900;
-  color: white;
-  transition: 0.5s;
+  background-color: #fab900 !important;
+  color: white  !important;
+  transition: 0.5s !important;
+  border: none !important;
 }
 
-/*#############> Second Section Start <######### */
-
-/* .img-wrapperinersecond {
-  overflow: hidden;
-  border-radius: 15px;
-  position: relative;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  height: 280px;
-} */
 .img-wrapperinersecond {
   overflow: hidden;
   border-radius: 15px;
@@ -269,9 +262,10 @@
 }
 
 .img-wrapperinersecond:hover button {
-  background-color: #fab900;
-  color: white;
-  transition: 0.5s;
+  background-color: #fab900 !important;
+  color: white !important;
+  transition: 0.5s !important;
+  border: none !important;
 }
 
 .img-wrapperinersecondsubmit button {
@@ -858,7 +852,15 @@ background:#fff !important;
 /*##############> Swipper End<########## */
 
 /*################> Footer Start <############# */
-
+/* .fot-top{
+  
+} */
+/* .line{
+  width: 100% !important;
+  height: px !important;
+  background-color: #0000 !important;
+  margin-top: 5rem !important;
+} */
 /* Footer Top  */
 .footerTop {
   background-color: #192727;
@@ -871,8 +873,14 @@ background:#fff !important;
   margin-bottom: -100px;
   z-index: 10000;
   position: relative;
+  top: 105px;
 }
-
+.btn-lg :hover{
+  background-color: #fab900 !important;
+  color: white !important;
+  transition: 0.3s !important;
+  border: none !important;
+}
 .locationIcon,
 .callIcon,
 .whatsappIcon,
@@ -1137,9 +1145,10 @@ li a:hover {
 }
 
 .gallery_item1:hover .mButton {
-  background-color: #fab900;
-  color: white;
-  transition: 0.5s;
+  background-color: #fab900 !important;
+  color: white !important;
+  transition: 0.5s !important;
+  border: none !important;
 }
 
 .gallery_item1:hover img {
