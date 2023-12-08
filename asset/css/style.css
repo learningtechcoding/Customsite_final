@@ -168,7 +168,7 @@
   }
 }
 
-@media (min-width: 2200px) {
+@media (min-width: 3000px) {
   .inner-img {
     transition: 0.3s;
     width: 100%;
