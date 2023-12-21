@@ -1413,6 +1413,15 @@ li a:hover {
 .giftBg {
   /* background-color:  #eff8ff !important; */
 }
+.padOne{
+  padding-inline: 40px !important;
+}
+.padTwo{
+  padding-inline: 35px !important;
+}
+.padThree{
+  padding-inline: 35px !important;
+}
 
 .oneHead {
   color: #fab900 !important;
@@ -1482,6 +1491,15 @@ li a:hover {
 @media screen and (max-width: 768px) {
   .cardHeight {
     height: 100% !important;
+  }
+  .padOne{
+    padding-inline: 10px !important;
+  }
+  .padTwo{
+    padding-inline: 23px !important;
+  }
+  .padThree{
+    padding-inline: 19px !important;
   }
 }
 
