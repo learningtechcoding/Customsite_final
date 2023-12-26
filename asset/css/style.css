@@ -98,15 +98,15 @@
 
   left: 50%;
   transform: translate(-50%, -0%);
-  border-radius: 1rem 1rem 1rem 1rem !important;
+  border-radius: 30px;
   background-color: White;
   border: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  padding-top: 15px;
+  padding-top: 10px;
   width: 180px;
 
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 992px) {
@@ -120,6 +120,8 @@
   color: white !important;
   transition: 0.5s !important;
   border: none !important;
+   
+
 }
 
 .inner-img:hover {
@@ -462,7 +464,7 @@
   position: absolute;
   bottom: 20px;
   left: 10px;
-  font-size: 20px !important;
+  font-size: 18px !important;
   color: White;
 }
 
@@ -1136,11 +1138,12 @@ li a:hover {
   /* border-radius: 15px; */
   background-color: White;
   border: none;
+  border-radius: 30px !important;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 1rem 1rem 1rem 1rem !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
   width: 180px;
 }
 
