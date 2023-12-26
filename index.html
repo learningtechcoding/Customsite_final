@@ -175,6 +175,18 @@
         opacity: 1 !important;
         transform: translateY(0px) !important;
       }
+
+
+
+      .masterrowgrid{
+        display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Gap between cards */
+      }
+
+
+    
+
     </style>
   </head>
   <body>
@@ -471,7 +483,7 @@
           <div class="carousel-item active slider-img">
             <section class="bg-banner">
               <div class="container">
-                <div class="row p-0 m-0 p-3">
+                <div class="row p-0 m-0 py-3">
                   <div class="col-lg-5 col-md-6">
                     <div class="Left-col">
                       <p class="para-txt text-white pt-5 pt-6">CUSTOM BOXES</p>
@@ -514,24 +526,25 @@
             </div>
             <div class="custom-carousel-caption">
               <p class="fst-italic">Custom Boxes</p>
-              <h3 class="CS-TXT mb-5 ms-4">Customized bulk paper bags</h3>
+              <h3 class="CS-TXT mb-3 ">Customized bulk paper bags</h3>
               <div class="row p-0 m-0">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
+                 
+                <div class="col-lg-5  p-0 m-0">
                   <button
                     class="btn w-100 btn-lg sec2_custom-button1 mt-2 px-5 py-3 text-nowrap"
                   >
                     Shop Now
                   </button>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-md-1 p-0 m-0"></div>
+                <div class="col-lg-6 p-0 m-0">
                   <button
                     class="btn w-100 btn-lg sec2_custom-button2 mt-2 px-5 py-3 text-nowrap"
                   >
                     Shop Now
                   </button>
                 </div>
-                <div class="col-lg-1"></div>
+                
               </div>
             </div>
           </div>
@@ -559,7 +572,7 @@
       <!--###############> Crousel End <################# -->
 
       <section class="bg-transparent masterlightsection">
-        <div class="container">
+        <div class="px-md-5">
           <div class="row p-0 m-0">
             <div class="col-lg-3 col-md-6 mb-3 mb-md-0 p-0 p-md-1">
               <div class="bg-white boxeshome">
@@ -622,7 +635,7 @@
 
     <section class="py-5 mt-5 topsellingitemsection">
       <div
-        class="container-fluid px-md-5"
+        class="container-fluid p-0 m-0 px-md-5"
         style="transform: skewY(4deg) !important"
       >
         <div class="text-center settingmain">
@@ -639,38 +652,38 @@
           </div>
         </div>
         <div class="row p-0 m-0 ">
-          <div class="col-md-6 mt-3 mt-lg-0 order-2 order-lg-0">
+          <div class="col-md-6 mt-3 mt-lg-0 order-2 order-lg-0  p-0 m-0">
             <div class="img-wrapper">
-              <button class="px-5 btn bg-transparent border border-1 text-white ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white ">Packaging</button>
               <img class="inner-img" src="./asset/img/selling.png" />
             </div>
           </div>
           <div class="col-lg-6 p-0 m-0">
             <div class="row p-0 m-0">
-              <div class="col-md-6 mt-3 mt-lg-0 py-md-0 px-2">
+              <div class="col-md-6 mt-3 mt-lg-0 py-md-0 p-3 pe-0">
                 <div class="img-wrapperiner">
-                  <button class="px-5 btn bg-transparent border border-1 text-white ">Packaging</button>
+                  <button class=" btn bg-transparent border border-1 text-white ">Packaging</button>
                   <img class="inner-img" src="./asset/img/selling2.png" />
                 </div>
               </div>
 
-              <div class="col-md-6 mt-3 mt-lg-0 py-md-0 px-2">
+              <div class="col-md-6 mt-3 mt-lg-0 py-md-0 p-3 pe-0">
                 <div class="img-wrapperiner">
                   <button class="px-5 btn bg-transparent border border-1  text-white ">Packaging</button>
                   <img class="inner-img" src="./asset/img/selling3.png" />
                 </div>
               </div>
 
-              <div class="col-md-6 mt-5 mt-lg-4 py-md-0 px-2">
+              <div class="col-md-6 mt-5 mt-lg-4 py-md-0 p-3 pe-0">
                 <div class="img-wrapperiner">
-                  <button class="px-5 btn bg-transparent border border-1 text-white ">Packaging</button>
+                  <button class=" btn bg-transparent border border-1 text-white ">Packaging</button>
                   <img class="inner-img" src="./asset/img/selling6.png" />
                 </div>
               </div>
 
-              <div class="col-md-6 mt-5 mt-lg-4 py-md-0 px-2">
+              <div class="col-md-6 mt-5 mt-lg-4 py-md-0 p-3 pe-0">
                 <div class="img-wrapperiner">
-                  <button class="px-5 btn bg-transparent border border-1 text-white ">Packaging</button>
+                  <button class=" btn bg-transparent border border-1 text-white ">Packaging</button>
                   <img class="inner-img" src="./asset/img/selling5.png" />
                 </div>
               </div>
@@ -680,8 +693,8 @@
       </div>
     </section>
 
-    <section class="py-5 padOne">
-      <div class="container-fluid">
+    <section class="py-5 padOne px-md-5">
+      <div class="container-fluid p-0 m-0">
         <div class="text-center settingmain">
           <div class="row p-0 m-0">
             <div class="col-md-4"></div>
@@ -696,96 +709,84 @@
           </div>
         </div>
 
-        <div class="row p-0 m-0 py-md-5">
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 p-0 p-md-2">
+        <div class="masterrowgrid p-0 m-0 py-md-5">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/selling7.png" />
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 p-0 p-md-2">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
-              <img class="inner-imgone" src="./asset/img/selling8.png" />
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <img class="inner-imgone" src="./asset/img/textbanner1.jpg" />
             </div>
           </div>
 
 
+ 
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 p-0 p-md-2">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/selling9.png" />
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 p-0 p-md-2">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/textbanner1.jpg" />
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-lg-0 p-0 p-md-2">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/selling5.png" />
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-lg-0 p-0 p-md-2">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/selling3.png" />
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 mt-3 mt-lg-0 p-0 p-md-2">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/selling4.png" />
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 p-0 p-md-2 mt-3 mt-lg-0">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white  ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/textbanner1.jpg" />
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 p-0 p-md-2 mt-3 mt-lg-0">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/textbanner1.jpg" />
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 p-0 p-md-2 mt-3 mt-lg-0">
+          <div class="mastercardgridchild">
             <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white ">Packaging</button>
+              <button class=" btn bg-transparent border border-1 text-white ">Packaging</button>
               <img class="inner-imgone" src="./asset/img/selling7.png" />
             </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6 p-0 p-md-2 mt-3 mt-lg-0">
-            <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
-              <img class="inner-imgone" src="./asset/img/selling8.png" />
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-6 p-0 p-md-2 mt-3 mt-lg-0">
-            <div class="img-wrapperinersecond">
-              <button class="px-5 btn bg-transparent border border-1 text-white  ">Packaging</button>
-              <img class="inner-imgone" src="./asset/img/selling9.png" />
-            </div>
-          </div>
-
-          <div class="col-12 py-4 d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn rounded-0 btn-lg btn-block readmorebtn1 px-5"
-            >
-              Read More <i class="fas fa-arrow-right allroset"></i>
-            </button>
-          </div>
+          </div> 
         </div>
+       <div class="row">
+        <div class=" py-2 d-flex justify-content-center">
+          <button
+            type="button"
+            class="btn rounded-0 btn-lg btn-block readmorebtn1 px-5"
+          >
+            Read More <i class="fas fa-arrow-right allroset"></i>
+          </button>
+        </div>
+       </div>
       </div>
     </section>
 
@@ -802,16 +803,16 @@
         </div>
       </div>
       <div class="mainnewqoute">
-        <div class="container pb-3">
+        <div class=" pb-3 px-md-5">
           <form>
             <div class="row p-0 m-0 newqoute">
               <div class="col-md-6 p-0 p-md-1">
-                <div class="form-row row rowPad">
+                <div class="form-row row ">
                   <div class="form-group col-sm-6 mt-3">
                     <label for="inputEmail4">Name</label>
                     <input
                       type="text"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputEmail4"
                     />
                   </div>
@@ -819,7 +820,7 @@
                     <label for="inputPassword4">Phone</label>
                     <input
                       type="number"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputPassword4"
                     />
                   </div>
@@ -828,7 +829,7 @@
                     <label for="inputPassword4">Email</label>
                     <input
                       type="email"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputPassword4"
                     />
                   </div>
@@ -837,7 +838,7 @@
                     <label for="exampleFormControlTextarea1">Message</label>
 
                     <textarea
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="exampleFormControlTextarea1"
                       rows="7"
                     ></textarea>
@@ -850,7 +851,7 @@
                   <div class="form-group col-md-12 mt-3">
                     <label for>Product</label>
                     <select
-                      class="form-select rounded-0"
+                      class="form-select rounded-2"
                       aria-label="Default select example"
                     >
                       <option selected>1-3-3 button</option>
@@ -863,7 +864,7 @@
                     <label for="inputEmail4">Length</label>
                     <input
                       type="text"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputEmail4"
                     />
                   </div>
@@ -871,7 +872,7 @@
                     <label for="inputPassword4">Width</label>
                     <input
                       type="email"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputPassword4"
                     />
                   </div>
@@ -879,7 +880,7 @@
                   <div class="form-group col-lg-3 col-6 mt-3">
                     <label for>Height</label>
                     <select
-                      class="form-select rounded-0"
+                      class="form-select rounded-2"
                       aria-label="Default select example"
                     >
                       <option selected>1-3-3 button</option>
@@ -891,7 +892,7 @@
                   <div class="form-group col-lg-3 col-6 mt-3">
                     <label for>Unit</label>
                     <select
-                      class="form-select rounded-0"
+                      class="form-select rounded-2"
                       aria-label="Default select example"
                     >
                       <option selected>Inch</option>
@@ -904,7 +905,7 @@
                   <div class="form-group col-md-6 mt-3">
                     <label for>Printing</label>
                     <select
-                      class="form-select rounded-0"
+                      class="form-select rounded-2"
                       aria-label="Default select example"
                     >
                       <option selected>Full Color With Inside Printing</option>
@@ -916,7 +917,7 @@
                   <div class="form-group col-md-6 mt-3">
                     <label for>Materials</label>
                     <select
-                      class="form-select rounded-0"
+                      class="form-select rounded-2"
                       aria-label="Default select example"
                     >
                       <option selected>12pt Cardboard</option>
@@ -930,7 +931,7 @@
                     <label for="inputEmail4">Quentity 1</label>
                     <input
                       type="text"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputEmail4"
                     />
                   </div>
@@ -939,7 +940,7 @@
                     <label for="inputEmail4">Quentity 2</label>
                     <input
                       type="text"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputEmail4"
                     />
                   </div>
@@ -948,7 +949,7 @@
                     <label for="inputEmail4">Quentity 3</label>
                     <input
                       type="text"
-                      class="form-control rounded-0"
+                      class="form-control rounded-2"
                       id="inputEmail4"
                     />
                   </div>
@@ -957,7 +958,7 @@
                 <div class="form-group col-md-12 mt-3">
                   <label for>Delivery Deadline</label>
                   <select
-                    class="form-select rounded-0"
+                    class="form-select rounded-2"
                     aria-label="Default select example"
                   >
                     <option selected>12pt Cardboard</option>
@@ -1063,7 +1064,7 @@
     <!--################> Get A Qouet End<############## -->
 
     <!--====== Gallery Section  Start ======-->
-    <section id="gallery" class="pb-5 padTwo">
+    <section id="gallery" class="pb-5 px-md-5">
       <div class="py-5">
         <div class="text-center settingmain">
           <div class="row p-0 m-0 p-0 m-0">
@@ -1078,7 +1079,7 @@
             <div class="col-md-4"></div>
           </div>
         </div>
-        <div class="container-fluid p-0 px-md-4">
+        <div class="container-fluid p-0 m-0 p-0 ">
           <!-- Filterable Gallery -->
           <div class="row p-0 m-0">
             <div class="col-md-2"></div>
@@ -1175,21 +1176,7 @@
               />
             </div>
 
-            <div class="gallery_item p-0 mobile">
-              <h3>Embossing</h3>
-              <img
-                src="https://images.unsplash.com/photo-1551355738-1875b6664915?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlc3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"
-                alt="img"
-              />
-            </div>
-
-            <div class="gallery_item p-0 camera">
-              <h3>Embossing</h3>
-              <img
-                src="https://images.unsplash.com/photo-1515197304934-f95872d7156f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="img"
-              />
-            </div>
+             
           </div>
 
           <!-- Lightbox -->
@@ -1209,8 +1196,8 @@
     </section>
     <!--====== Gallery Section  End ======-->
 
-    <section class="py-5 mt-5  padOne topsellingitemsection">
-      <div class="px-md-3 px-3" style="transform: skewY(4deg) !important">
+    <section class="py-5  padOne topsellingitemsection">
+      <div class="px-md-5 px-3" style="transform: skewY(4deg) !important">
         <div class="text-center settingmain">
           <div class="row p-0 m-0 p-0 m-0">
             <div class="col-md-12 pb-5">
@@ -1225,7 +1212,7 @@
             <div class="settingmain customhead text-justify">
               <h4 class="pb-3">Custom Box</h4>
 
-              <p>
+              <p class="pe-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
                 unde aperiam eos ea omnis autem voluptatem animi atque culpa
                 ipsa modi illo nesciunt natus, vitae aut corrupti maiores
@@ -1241,7 +1228,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 contentfaqs customimg mt-3 mt-md-0 p-0 p-md-3">
+          <div class="col-md-6 contentfaqs customimg mt-3 mt-md-0 p-0 ">
             <img src="./asset/img/custom1.png" alt />
           </div>
         </div>
@@ -1342,14 +1329,14 @@
     </section>
 
     <!--################> Print By Category Start <###########  -->
-    <section class="pt-5 px-md-5 straightbg">
+    <section class="pt-5 px-md-5">
       <!-- ---------------------section1------------------------ -->
       <!-- topsellingitemsection2 -->
       <!-- style=" 
   transform: skewY(-4deg);" -->
 
       <div>
-        <div class="text-center settingmain pb-md-5">
+        <div class="text-center settingmain pb-md-2">
           <div class="row p-0 m-0">
             <div class="col-md-4"></div>
             <div class="col-md-4">
@@ -1361,12 +1348,12 @@
         </div>
 
         <!-- ---------------------section2------------------------ -->
-        <div class="container-fluid pb-5">
+        <div class="container-fluid p-0 m-0 pb-5">
 
            <!--====== Gallery Section  Start ======-->
     <section id=""  >
       <div class="py-5 ">
-          <div class="row p-0 m-0 gallery_wrapper">
+          <div class="row p-0 m-0 gallery_wrappersecond">
             <div class="gallery_item1 muImage p-0 camera" style="grid-row: span 2;">
               <div class="sect2_bg-img p-4 rounded-4">
                 <img
@@ -1600,7 +1587,7 @@
     <!--################> Print By Category End <#############  -->
 
     <section class>
-      <div class="container-fluid bgFixed position-relative">
+      <div class="container-fluid p-0 m-0 bgFixed position-relative">
         <div class="text-center fixedtext">
           <h3 class="pb-2">Extra 30% OFF Online</h3>
           <h2 class="pb-1">Lorem ipsum dolor sit amet consectetur</h2>
@@ -1627,9 +1614,9 @@
 
         <!-- ---Explore Our Services Banner 2--- -->
         <div class="slider-div mb-5 pb-5">
-          <div class="container swiper border-8">
+          <div class=" swiper border-8 px-md-5">
             <div class="row p-0 m-0 m-0 topic-card slider-bg-cl">
-              <div class="col-lg-12 col-12">
+              <div class="col-lg-12 col-12 p-0 m-0">
                 <div class="slide-container">
                   <div class="card-wrapper swiper-wrapper">
                     <div class="topic_card swiper-slide">
@@ -2328,7 +2315,7 @@
     </section>
     <!--#################> Client Reviews End  <##################-->
 
-    <section class="py-5 my-5">
+    <section class="pt-5 mt-5">
       <!-- ------------------------------Section3----------------------------- -->
 
       <div class="text-center settingmain pb-5">
@@ -2341,9 +2328,9 @@
         </div>
       </div>
 
-      <div class="container-fluid pb-5 padThree">
-        <div class="row p-0 m-0 px-md-3 p-0 p-md-1">
-          <div class="col-lg-3 col-md-12 col-sm-12 p-0 p-md-1">
+      <div class="container-fluid p-0 m-0 pb-5 px-md-5" >
+        <div class="row p-0 m-0  p-0 p-md-1">
+          <div class="col-lg-3 col-md-12 col-sm-12 p-0 ps-md-2">
             <div class="card Card-FB mb-3">
               <div class="img-container">
                 <img
@@ -2365,7 +2352,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-content">
+            <div class="post-content px-3">
               <div class>
                 <div class>
                   <span class></span
@@ -2393,7 +2380,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-12 col-sm-12 p-0 p-md-1">
+          <div class="col-lg-3 col-md-12 col-sm-12 p-0 ps-md-2">
             <div class="card Card-FB mb-3">
               <div class="img-container">
                 <img
@@ -2415,7 +2402,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-content">
+            <div class="post-content px-3">
               <div class>
                 <div class>
                   <span class></span
@@ -2443,7 +2430,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-12 col-sm-12 p-0 p-md-1">
+          <div class="col-lg-3 col-md-12 col-sm-12 p-0 ps-md-2">
             <div class="card Card-FB mb-3">
               <div class="img-container">
                 <img
@@ -2465,7 +2452,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-content">
+            <div class="post-content px-3">
               <div class>
                 <div class>
                   <span class></span
@@ -2493,7 +2480,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-12 col-sm-12 p-0 p-md-1">
+          <div class="col-lg-3 col-md-12 col-sm-12 p-0 ps-md-2">
             <div class="card Card-FB mb-3">
               <div class="img-container">
                 <img
@@ -2515,7 +2502,7 @@
                 </div>
               </div>
             </div>
-            <div class="post-content">
+            <div class="post-content px-3">
               <div class>
                 <div class>
                   <span class></span
@@ -2613,12 +2600,11 @@
       <!-- footerTop ends  -->
 
       <!-- footer starts  -->
-      <footer class="footer mt-5 container-fluid">
+      <footer class="footer mt-5 container-fluid pt-5" style="padding-top: 100px !important;">
         <div class="footerContent row mx-md-2 d-flex flex-wrap">
           <!-- Footer Info -->
           <div
-            class="footerInfo col-12 col-md-6 col-lg-3 d-flex flex-column gap-4 mb-4 align-items-start"
-          >
+            class="footerInfo col-12 col-md-6 col-lg-3 d-flex flex-column gap-4 mb-4 align-items-start">
             <div class="footerInfoLogo">
               <img src="./asset/img/Logo.svg" alt="Logo" />
             </div>

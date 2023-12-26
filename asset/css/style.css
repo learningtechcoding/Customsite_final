@@ -145,6 +145,7 @@
   overflow: hidden;
   border-radius: 30px;
   position: relative;
+  height: 221px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -156,11 +157,11 @@
   height: 515px !important;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .img-wrapperiner {
     height: 242px;
   }
-}
+} */
 
 @media (max-width: 992px) {
   .img-wrapperiner {
@@ -203,16 +204,16 @@
 
   left: 50%;
   transform: translate(-50%, -0%);
-  border-radius: 1rem 1rem 1rem 1rem !important;
+  border-radius: 30px;
   background-color: White;
   border: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  padding-top: 15px;
+  padding-top: 10px;
   width: 180px;
   text-wrap: nowrap;
 
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .img-wrapperiner:hover button {
@@ -224,11 +225,11 @@
 
 .img-wrapperinersecond {
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 30px;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  height: 280px;
+  height: 200px;
 }
 
 .img-wrapperinersmall {
@@ -255,8 +256,9 @@
   border: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  padding: 15px 0px;
-  border-radius: 1rem !important;
+  padding: 10px 0px;
+
+  border-radius: 30px;
   width: 65%;
   font-size: 12px;
 }
@@ -374,9 +376,7 @@
 
 .gallery_tabs li.active,
 .gallery_tabs li:hover {
-  background-color: var(--main-color);
-  color: #fff;
-
+  border-bottom:2px solid   var(--main-color);
   border-radius: 15px;
 
   border-top-left-radius: 0px;
@@ -384,15 +384,25 @@
 }
 
 .gallery_wrapper {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 1rem; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Gap between cards */
+      
 
   /* margin-top: 4rem; */
 }
+.gallery_wrappersecond{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
 
 @media (max-width: 768px) {
-  .gallery_wrapper {
+  .gallery_wrappersecond {
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
   }
@@ -414,31 +424,32 @@
 }
 
 @media (max-width: 554px) {
-  .gallery_wrapper {
+  .gallery_wrappersecond {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
   }
 }
 
 @media (max-width: 430px) {
-  .gallery_wrapper {
+  .gallery_wrappersecond {
     grid-template-columns: repeat(1, 1fr);
     gap: 0.5rem;
   }
 }
 
 .gallery_item {
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
+  height: 200px;
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .gallery_item1 {
-  border-radius: 10px;
+  border-radius: 30px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -451,6 +462,7 @@
   position: absolute;
   bottom: 20px;
   left: 10px;
+  font-size: 20px !important;
   color: White;
 }
 
@@ -770,7 +782,7 @@ background:#fff !important;
 
 .card {
   background: #fff;
-  border-radius: 15px;
+  border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -1305,7 +1317,7 @@ li a:hover {
   overflow: hidden;
   border-radius: 30px;
   position: relative;
-  height: 509px;
+  height: 465px;
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -1413,9 +1425,9 @@ li a:hover {
 .giftBg {
   /* background-color:  #eff8ff !important; */
 }
-.padOne{
+/* .padOne{
   padding-inline: 40px !important;
-}
+} */
 .padTwo{
   padding-inline: 35px !important;
 }
@@ -1492,9 +1504,9 @@ li a:hover {
   .cardHeight {
     height: 100% !important;
   }
-  .padOne{
+  /* .padOne{
     padding-inline: 10px !important;
-  }
+  } */
   .padTwo{
     padding-inline: 23px !important;
   }

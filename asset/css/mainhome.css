@@ -209,12 +209,12 @@ border-radius: 8px;
 }
 .custom-carousel-caption {
     position: absolute;
-    top:50%; /* Position at the vertical center of the image */
-    left: 50%; /* Position at the horizontal center of the image */
-    transform: translate(-50%, -50%); /* Center the caption */
-    padding: 10px;
+    top:35%; /* Position at the vertical center of the image */
+    left: 5%; /* Position at the horizontal center of the image */
+   
+    
     color: #fff;
-    text-align: center; /* Center the text horizontally */
+   
     z-index: 1;
 }
 
