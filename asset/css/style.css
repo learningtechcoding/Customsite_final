@@ -224,6 +224,9 @@
   transition: 0.5s !important;
   border: none !important;
 }
+.imgwraped{
+  height: 230px;
+}
 
 .img-wrapperinersecond {
   overflow: hidden;
@@ -273,7 +276,7 @@
 }
 
 .img-wrapperinersecondsubmit button {
-  background-color: White;
+  background-color: ;
   border: none;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -368,7 +371,7 @@
 }
 
 .gallery_tabs li {
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 2.5rem;
 
   font-size: 0.95rem;
   text-transform: uppercase;
@@ -1048,12 +1051,13 @@ li a:hover {
 
 /*################> Get Qoute Scratch Start <############ */
 .mainnewqoute {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../img/blog_crd_1.jpg");
+    url("../img/blog_crd_1.jpg"); */
+    background-color: #cccccc;
   /* background-image: url(../img/7xm.xyz169494.jpg); */
   width: 100%;
 
@@ -1530,7 +1534,7 @@ li a:hover {
 
 /* CodeByQasim  */
 .nav-bg {
-  position: sticky;
+  position: sticky !important;
   top: 0px;
   z-index: 99999;
 }
